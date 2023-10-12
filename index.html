@@ -1,68 +1,91 @@
 <!DOCTYPE html>
+<html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <!--START NAV-->
-    <nav>
-      <img src="" alt="logo">
-      <ul>
-        <li class="nav-link"><a href="#header-one">header link one</a></li>
-        <li class="nav-link"><a href="#header-two">header link two</a></li>
-        <li class="nav-link"><a href="#header-three">header link three</a></li>
-      </ul>
-    </nav>
-    <!--END NAV-->
-    <!--SECTION ONE-->
-    <section class="banner">
-      <h1>This website is awesome</h1>
-      <p>This website has some subtext that goes here under the main title. It's a smaller font and color is lower contrast.</p>
-      <button class="sign-up"></button>
-      <img src="" alt="Banner Image" class="banner-img">
-    </section>
-    <!--END SECTION ONE-->
-    <!--SECTION TWO-->
-    <section class="items-group">
-      <h1>Some random information.</h1>
-      <div class="items">
-        <img src="" alt="image" class="image-one">
+    <header>
+      <div class="nav-bar"></div>
+      <div class="logo">THE BEARDED<span class="dev">.DEV</span></div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#" alt="link-one">header link one</a></li>
+          <li><a href="#" alt="link-two">header link two</a></li>
+          <li><a href="#" alt="link-three">header link three</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero-container">
+      <div class="content-container">
+        <div class="content">
+          <h1>This website is awesome</h1>
+          <p>
+            This website has some subtext that goes here under the mai title.
+            It's a smaller font and the color is lower contrast.
+          </p>
+        </div>
+        <button class="sign-up">Sign-up</button>
       </div>
-      <div class="items">
-        <img src="" alt="image" class="image-one">
-      </div>
-      <div class="items">
-        <img src="" alt="image" class="image-one">
-      </div>
-      <div class="items">
-        <img src="" alt="image" class="image-one">
-      </div>
-      <div class="items">
-        <img src="" alt="image" class="image-one">
+      <div class="image" alt="placeholder">
+        <img src="./images/placeholder.png" alt="placeholder" />
       </div>
     </section>
-    <!--END SECTION TWO-->
-    <!--QUOTE-->
-    <section class="quote">
-      <blockquote>This is an inspiring quote, or a testimonial from a customer.  Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</blockquote>
-      <figcaption>Thor,God of Thunder</figcaption>
-    </section>
-    <!--END QUOTE-->
-    <!--CALL TO ACTION-->
-    <section class="call-to-action">
-      <div class="action-wrapper">
-        <h1>Call to action! It's time!</h1>
-        <p>Sign up for our products by clicking that button right over there!</p>
-        <button class="sign-up"></button>
+    <section class="gallery">
+      <div class="section-title">
+        <h1>Some random information.</h1>
+      </div>
+      <div class="cards">
+        <div class="card-one">
+          <img src="" alt="placeholder" />
+          <p>This is some subtext under an illustration or image</p>
+        </div>
+        <div class="card-two">
+          <img src="" alt="placeholder" />
+          <p>This is some subtext under an illustration or image</p>
+        </div>
+        <div class="card-three">
+          <img src="" alt="placeholder" />
+          <p>This is some subtext under an illustration or image</p>
+        </div>
+        <div class="card-four">
+          <img src="" alt="placeholder" />
+          <p>This is some subtext under an illustration or image</p>
+        </div>
       </div>
     </section>
-    <!--END CALL TO ACTION-->
-    <!--FOOTER-->
-    <footer>
-        <p>Copyright &copy; The Odin Project2021 </p>
+    <section class="quote-container">
+      <blockquote class="quote">
+        <p>
+          This is an inspiring quote, or a testimonial from a customer. Maybe
+          it's just filling up space, or maybe people will actually read it. Who
+          knows? All I know is that it looks nice.
+        </p>
+        <figcaption>-Thor, God of Thunder</figcaption>
+      </blockquote>
+    </section>
+    <section class="call-2-action">
+      <div class="action-container">
+        <div class="action-content">
+          <h1>Call to action! it's time!</h1>
+          <p>
+            Sign up for our product by clicking that button right over there!
+          </p>
+        </div>
+        <button class="sign-up">Sign up</button>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>Copyright &copy; The Odin Project 2021</p>
     </footer>
-    <!--FOOTER-->
   </body>
 </html>
